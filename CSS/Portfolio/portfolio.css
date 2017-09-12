@@ -14,6 +14,7 @@ h3, h4{
     padding: 10px;
     color: white;
 }
+
 .wrapper{
     height: auto;
     width: 980px;
@@ -79,7 +80,7 @@ h3, h4{
 }
 
 #block1, #block2, #block3{
-    height: 560px;
+    height: auto;
     width: 295px;
     display: inline-block;
     vertical-align: top;
@@ -91,14 +92,60 @@ h3, h4{
     background: linear-gradient(to right, #FFFFFF, #DACBD9); /* Standard syntax */
 
 }
-.more 
+.more img{
+    height: 150px;
+    width: 295px;
+}
+.more p{
+    height: 200px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#icons img{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#icons {
+    height: auto;
+}
+#link a{
+    height: auto;
+    width: auto;
+    color: white;
+    background: #407D61;
+    border: 3px solid #2E614A;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 80px 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 3px #888888;
+
+}
 .footer{
     height: 60px;
     width: 980px;
+    padding: 5px;
     background: #FEFEFE; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#F1F1F1,#FEFEFE); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#F1F1F1,#FEFEFE); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#F1F1F1,#FEFEFE); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#F1F1F1,#FEFEFE); /* Standard syntax */
-
+}
+.footer div{
+    margin: auto;
+    line-height: 1.5;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    margin: 5px;
+}
+.footer img{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: auto;
 }
