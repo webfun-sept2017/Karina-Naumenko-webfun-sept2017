@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+span{
+    color: #75A9D1;
+    font-size: 0.75em;
+}
+
+.wrapper{
+    width: 970px;
+    height: auto;
+    background: blue;
+    margin: auto;
+    background: #245173;
+}
+
+.header{
+    width: 970px;
+    margin-bottom: 10px;
+}
+
+.header img{
+    width: 400px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.search{
+    height: 100px;
+    width:300px;
+    display: inline-block;
+    margin: 10px 10px 10px 200px;
+    vertical-align: top;
+}
+.search p{
+    text-align: right;
+    color: white;
+    font-size: 0.75em;
+    margin-right: 60px;
+}
+.search a{
+    color: #FFD354;
+}
+.searchbox{
+    height: 50px;
+    width: 200px;
+    margin: 5px 5px 20px 30px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+    background: #444444;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    background: #245173;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-align: center;
+}
+.nav{
+    height: 50px;
+    width: 860px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px black;
+    background: #467EA9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3576A9, #467EA9, #3576A9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3576A9, #467EA9, #3576A9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3576A9, #467EA9, #3576A9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3576A9, #467EA9, #3576A9); /* Standard syntax */
+}
+
+.nav li{
+    line-height: 2;
+    margin: 25px;
+    padding: 0px;
+    display: inline;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.sidebar{
+    height: 200px;
+    width: 170px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px 20px 70px;
+    padding: 10px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar a{
+    line-height: 1.5;
+    color: white;
+}
+
+.info {
+    height: auto;
+    width: 670px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 20px 0;
+}
+
+.info p{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-size: 0.85em;
+}
+
+.info ul{
+    list-style-type: none;
+    line-height: 1.7;
+    color: #FFD354;
+    text-align: center;
+}
+
+.instructions{
+    height: auto;
+    width: 970px;
+    background: white;
+}
+
+.start, .apply{
+    height: auto;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 10px 30px;
+    padding: 10px 40px;
+    border-top: 5px solid #73A8D1;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.instructions ul{
+    color: #75A9D1;
+    margin: 10px;
+}
+
+.footer{
+    height: auto;
+    color: #87BAE1;
+    text-align: center;
+    padding: 30px 0;
+    background: #245173; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#245173, #3475A8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#245173, #3475A8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#245173, #3475A8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#245173, #3475A8); /* Standard syntax */
+
+}
+
+.footer li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 40px;
+}
