@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+span{
+    color: #23669A;
+}
+.wrapper{
+    width: 980px;
+    height: auto;
+    margin: auto;
+    background: #FFFFFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E3E3E3, #FFFFFF, #FFFFFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E3E3E3, #FFFFFF, #FFFFFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E3E3E3, #FFFFFF, #FFFFFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E3E3E3, #FFFFFF, #FFFFFF); /* Standard syntax */
+}
+
+.header{
+    height: auto;
+    width: inherit;
+    background: white;
+}
+.header img{
+    height: 85px;
+    width: 85px;
+    margin: 5px;
+    position: absolute;
+}
+
+.header h1{
+    width: 600px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px 0 0 85px;
+}
+.header h2{
+    width: 950px;
+    padding: 15px;
+    color: white;
+    background: #24679A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#24679A, #5284A9, #24679A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#24679A, #5284A9, #24679A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#24679A, #5284A9, #24679A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#24679A, #5284A9, #24679A); /* Standard syntax */
+}
+
+.sidebar{
+    height: auto;
+    width: 230px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.sidebar h4,
+.sidebar p{
+    padding: 5px;
+}
+
+#def{
+    color: red;
+}
+
+.sidebar button{
+    width: 210px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px grey;
+}
+
+#b1{
+    margin-top: 10px;
+    background: #6299BF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#6299BF, #24669A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6299BF, #24669A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6299BF, #24669A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6299BF, #24669A); /* Standard syntax */
+}
+
+#b2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #F0731A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#EAAD65, #F0731A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EAAD65, #F0731A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EAAD65, #F0731A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EAAD65, #F0731A); /* Standard syntax */
+}
+
+.ad {
+    height: 300px;
+    width: 210px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-image: url(ad_background.png);
+    background-clip: content-box;
+    padding-top: 20px;
+    border-top: 1px solid grey;
+}
+
+.ad img{
+    height: 90px;
+    margin: auto;
+}
+.ad p{
+    margin-top: 15px;
+    line-height: 1.3;
+    font-size: 1.4em;
+}
+
+#b3{
+    width: 150px;
+    margin: 20px ;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px black;
+    background: #77D0DD; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#77D0DD, #00C0DB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#77D0DD, #00C0DB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#77D0DD, #00C0DB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#77D0DD, #00C0DB);
+}
+
+.main{
+    height: auto;
+    width: 700px;
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main a{
+    color: #0097AC;
+    text-decoration: none;
+}
+.main h3{
+    color: #23669A;
+    margin: 5px;
+    display: inline-block;
+}
+.contacts{
+    height: auto;
+    width: 700px;
+    border-bottom: 1px solid grey;
+
+}
+.contacts img{
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+}
+.contacts p{
+    margin-top: 5px;
+    color: #23669A;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.phone{
+    height: auto;
+    width: 220px;
+    margin-left: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.phone img{
+    height: 40px;
+    width: 40px;
+}
+.phone p{
+    margin: 0;
+    font-size: 0.6em;
+    color: grey;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#pho{
+    color: #00C0DB;
+    font-size: 2.5em;
+}
+
+.info p{
+    margin-left: 5px;
+}
+.info ul{
+    margin: 5px 0 0 40px;
+}
+.info img{
+    height: 100px;
+    margin: 15px auto;
+    display: block;
+    background: inherit;
+}
+.info ol{
+    margin: 0 0 15px 40px;
+}
+
+.infobox{
+    height: auto;
+    padding: 10px;
+    border: 4px solid #0086D9;
+}
+.infobox img{
+    width: 130px;
+}
+.sideinfo{
+    height: auto;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sideinfo p{
+    margin: 5px;
+}
