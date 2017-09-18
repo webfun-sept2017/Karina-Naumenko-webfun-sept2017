@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    height: 770px;
+    width: 900px;
+    margin: auto;
+    padding-top: 30px;
+    background: #D4D1B2;
+}
+
+.header{
+    width: 500px;
+    margin: auto;
+}
+.header img{
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+    background: white;
+}
+
+h1{
+    display: inline-block;
+    text-align: center;
+}
+
+.main{
+    width: 820px;
+    margin: 15px 40px;
+    }
+
+.main img{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    border: 5px solid black;
+    padding: 15px;
+}
+
+.bot{
+    background: #82B5E9;
+}
+.vot{
+    background: #F46772;
+}
