@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Functions</title>
+        <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script type="text/javascript">
+            $('document').ready(function(){
+                $('h1').click(function(){
+                    $(this).hide();
+                });
+                $('h3').click(function(){
+                    $('h1').show();
+                })
+                $('#ptoggle').click(function(){
+                    $('p').toggle();
+                });
+                $('h2').click(function(){
+                    $('#salad').slideDown('slow');
+                });
+                $('#imgUP').click(function(){
+                    $('#salad').slideUp();
+                });
+                $('#togglesalad').click(function(){
+                    $('#salad').slideToggle();
+                })
+                $('#fadein').click(function(){
+                    $('#imgfadein').fadeIn(3000);
+                });
+                $('#fadeout').click(function(){
+                    $('#imgfadein').fadeOut('slow');
+                });
+                $('#class').click(function(){
+                    $('#addclasshere').addClass('green');
+                });
+                $('#special').append('-woogie');
+                $('.test').before('<p>Testing the before</p>');
+                $('.test').after('<p>Testing the after</p>');
+                $('#html').click(function(){
+                    $(this).html("<p>You have tested the html function</p>");
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+        <style media="screen">
+        #salad{
+            display:none;
+        }
+        #imgfadein{
+            display: none;
+        }
+        .yellow{
+            background: yellow;
+        }
+        .green{
+            background: green;
+        }
+
+        #html{
+            background: green;
+            font-size: 2em;
+        }
+
+        </style>
+        <h1>Click me and I will dissaper!</h1>
+        <h3>click me to get back the above text</h3>
+        <button id="ptoggle" type="button" name="button">Click to toggle all paragraphs</button>
+        <p>This paragraph will be toggled with a click of a button</p>
+        <h2>First click here to slide down an image</h2>
+        <button id="imgUP" type="button" name="button">click to slide the image up</button>
+        <button id="togglesalad" type="button" name="button">click to toggle the image</button>
+        <br>
+        <img id="salad" src="salad.jpg" alt="salad">
+        <br>
+        <br>
+        <button id="fadein" type="button" name="button">click to fade in an image</button>
+        <button id="fadeout" type="button" name="button">click to fade out an image</button>
+        <br>
+        <img id="imgfadein" src="is.jpg" alt="is">
+        <br>
+        <br>
+        <button id="class" type="button" name="button">Press to add a class below</button>
+        <div class="yellow" id="addclasshere">
+            <p>This where the class be added</p>
+        </div>
+        <div class="yellow">
+            <p>This is where no class be added</p>
+        </div>
+        <br>
+        <br>
+
+        <div class="test">
+            <p id="special">Boogie</p>
+        </div>
+        <button id="html" type="button" name="button">click to test html function</button>
+
+
+
+
+    </body>
+</html>
